@@ -31,3 +31,9 @@ document.addEventListener('keydown', function(e) {
     moveDodgerLeft()
   }
 })
+
+document.addEventListener("keydown", function(e){
+  if (e.which ===38){
+    moveDodgerRight
+  }
+})
